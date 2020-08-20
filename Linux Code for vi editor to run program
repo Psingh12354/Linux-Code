@@ -1,0 +1,17 @@
+Using Vi Editor :
+
+write command “vi filename.c or vi filename.cpp”.
+Enter “I” , to activate insert mode in vi editor .
+Write your code
+Enter “Esc”
+Enter “:”
+write “wq” ,Enter.
+Using Compiler :
+
+--> for c code write “gcc - o filename filename.c” ,Enter
+--> for cpp code write “g++ - o filename filename.cpp” , Enter
+After compiling a runnable file will be created .
+
+Run :
+
+--> write “./filename” , Enter .
