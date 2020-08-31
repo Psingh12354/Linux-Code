@@ -1,0 +1,16 @@
+#! /bin/bash
+
+echo -e "Enter the name of file : \c"
+read file_name
+if [-e file_name ]
+then
+    if [ -w $file_name ]
+    then 
+    echo "Type some text data. to quit press ctrl+d" #ctrl+d to quit through cat command if yu dont have a file then use touch to create a file and chmod +x or -x method to remove                                                    #permission  or to give permission
+    cat >> $file_name
+    else
+    echo "File do not have permission"
+    fi
+else
+echo "$file_name not found"
+fi
