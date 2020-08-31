@@ -1,0 +1,9 @@
+#! /bin/bash
+echo -e "Enter the name of file : \c" # e to check the file , f for regular file and last s for file empty or not 
+read file_name
+if [-e file_name ]
+then
+echo "$file_name found"
+else
+echo "$file_name not found"
+fi
