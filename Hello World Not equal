@@ -1,0 +1,10 @@
+echo "Enter first string"
+read str1
+s="Hello World"
+if [ "$str1"!="$s" ]
+then
+echo "String is not equal"
+else
+echo "equal"
+fi
+~              
