@@ -1,0 +1,14 @@
+#!/bin/bash
+Name()
+{
+    echo "This is my first"
+    echo "It will print name"
+    echo "This name is &1 &2"
+    Age
+}
+Age(){
+    echo "This is nested func"
+    echo "This print age"
+    echo "Age of Priyanshu Singh is 20 years"
+}
+Name Priyanshu Singh
