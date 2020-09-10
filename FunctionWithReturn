@@ -1,0 +1,8 @@
+#!/bin/bash
+hello(){
+    echo "Hello Mr. $1 $2"
+    return 5
+}
+hello Priyanshu Singh
+age=$?
+echo "Age of Priyanshu Singh is $age"
