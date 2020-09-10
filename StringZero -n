@@ -1,9 +1,0 @@
-#!/bin/bash
-echo "Enter the string : "
-read str1
-if [ -n "$str1" ]
-then
-echo "$str1 is equal to 0"
-else
-echo "$str1 is not equal to 0"
-fi
