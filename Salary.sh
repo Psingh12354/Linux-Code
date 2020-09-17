@@ -1,10 +1,10 @@
-function salary()
+function Salary()
 {
-    sal= $(($1 * $2))
-    echo "Salary : $sal"
+    salary=$(($1 * $2))
+    echo "Salary : $salary"
 }
 echo "Salary Per day : "
 read a
 echo "Days : "
 read b
-salary $a $b
+Salary $a $b
