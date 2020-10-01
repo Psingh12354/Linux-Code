@@ -1,0 +1,15 @@
+read -p "first string : " str1 //-p
+if [ $str1 -eq 0 ]
+then 
+    echo "String is zero"
+elif [ $str1 -it 0 ]
+then
+echo "String is negative"
+else
+    if [ $((str1%2)) -eq 0 ]
+    then
+    echo "String is even length"
+    else
+    echo "String is odd length"
+    fi
+fi
