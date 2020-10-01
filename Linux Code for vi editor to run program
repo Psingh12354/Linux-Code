@@ -1,8 +1,8 @@
 Using Vi Editor :
 
-write command “vi filename.c or vi filename.cpp”.
+write a new  command “vi filename.c or vi filename.cpp”.
 Enter “I” , to activate insert mode in vi editor .
-Write your code
+Write your code here
 Enter “Esc”
 Enter “:”
 write “wq” ,Enter.
