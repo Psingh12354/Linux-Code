@@ -1,0 +1,24 @@
+echo "Enter first number : "
+read a
+echo "Enter second number : "
+read b
+if [ $a -eq $b ]
+then
+echo "$a = $b is equal"
+else
+echo "$a != &b is not equal"
+fi
+
+# p=0
+# while [ $p -lt 100 ]
+# do 
+# echo $p
+# if [ $p -eq 100 ]
+# then
+# break
+# fi
+# p=` expr $p + 1` 
+# done
+
+
+
